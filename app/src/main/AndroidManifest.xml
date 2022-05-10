@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.miraclemakers">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <activity
+            android:name=".Activities.Customer.DoneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Customer.CreateProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Customer.UserDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Seller.SellerSettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Seller.SellerEditProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Seller.SellerProfileCreateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Seller.ResOwnerDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Customer.LoginCustomerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Seller.LoginSellerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Customer.RegisterCustomerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Seller.RegisterSeller"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Common.WelcomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Common.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

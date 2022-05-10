@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MiracleMakers</string>
+    <string name="customer">ARE YOU A CUSTOMER?</string>
+    <string name="owner">ARE YOU A RESTAURANT OWNER</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
