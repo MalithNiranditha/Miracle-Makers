@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:id="@+id/nav_home"
+        android:title="My Product"
+        android:icon="@drawable/ic_home"/>
+    <item android:id="@+id/nav_addproduct"
+        android:title="Add Product"
+        android:icon="@drawable/ic_addproduct"/>
+
+
+    <item android:id="@+id/nav_addoffer"
+        android:title="Add Offers"
+        android:icon="@drawable/ic_add_offer"/>
+
+    <item android:id="@+id/nav_viewoffers"
+        android:title="View Offers"
+        android:icon="@drawable/ic_offer"/>
+
+
+</menu>
