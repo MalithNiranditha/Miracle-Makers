@@ -1,2 +1,0 @@
-# Miracle-Makers
-MAD Project
